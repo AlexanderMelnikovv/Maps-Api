@@ -1,5 +1,6 @@
 import pygame
 import pygame_gui
+import pytmx
 import sys
 import os
 
