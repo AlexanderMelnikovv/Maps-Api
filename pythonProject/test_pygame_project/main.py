@@ -198,8 +198,6 @@ if __name__ == '__main__':
                     jump = False
             all_sprites.update(rect_hero.x, rect_hero.y, reverse_hero)
             pygame.draw.rect(screen, pygame.Color('brown'), (0, 435, 800, 600))
-            '''pygame.draw.rect(screen, (64, 64, 64), (0, 600, 1000, 800))
-            pygame.draw.circle(screen, (255, 0, 0), rect.center, 15)'''
             all_sprites.draw(screen)
             pygame.display.flip()
 
